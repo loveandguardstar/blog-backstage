@@ -13,6 +13,14 @@ const getList = (author, keyword) => {
   return exec(sql)
 }
 
+const getDetail = (id) => {
+  const sql = `select * from blogs where id='${id}'`
+  return exec(sql).then(rows => {
+      return rows[0]
+  })
+}
+
 module.exports = {
-  getList
+  getList,
+  getDetail
 }
