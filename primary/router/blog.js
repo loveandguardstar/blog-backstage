@@ -1,5 +1,6 @@
 
 const { SuccessModel, ErrorModel } = require('../model/resModel')
+const { get } = require('../db/redis')
 const {
   getList,
   getDetail
