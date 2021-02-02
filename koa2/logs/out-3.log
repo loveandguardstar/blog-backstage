@@ -1,0 +1,18 @@
+2021-02-02 15:44:23: undefined
+2021-02-02 15:44:29:   <-- GET /api/blog/list?isadmin=1
+2021-02-02 15:44:29: is admin
+2021-02-02 15:44:29: GET /api/blog/list?isadmin=1 - 21ms
+2021-02-02 15:44:29:   --> GET /api/blog/list?isadmin=1 200 30ms 1.58kb
+2021-02-02 15:44:31:   <-- GET /api/blog/detail?id=18
+2021-02-02 15:44:31: GET /api/blog/detail?id=18 - 5ms
+2021-02-02 15:44:31:   --> GET /api/blog/detail?id=18 200 8ms 123b
+2021-02-02 15:44:34:   <-- GET /api/blog/detail?id=15
+2021-02-02 15:44:34: GET /api/blog/detail?id=15 - 3ms
+2021-02-02 15:44:34:   --> GET /api/blog/detail?id=15 200 5ms 142b
+2021-02-02 15:44:55:   <-- POST /api/blog/update?id=15
+2021-02-02 15:44:55: POST /api/blog/update?id=15 - 15ms
+2021-02-02 15:44:55:   --> POST /api/blog/update?id=15 200 17ms 11b
+2021-02-02 15:44:56:   <-- GET /api/blog/list?isadmin=1
+2021-02-02 15:44:56: is admin
+2021-02-02 15:44:56: GET /api/blog/list?isadmin=1 - 2ms
+2021-02-02 15:44:56:   --> GET /api/blog/list?isadmin=1 200 3ms 1.74kb
